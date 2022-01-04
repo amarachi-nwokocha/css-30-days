@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  #E5E5E5;
+    font-weight: 100px;
+}
+.main-container{
+
+  max-width: 100vw;
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 2rem 0;
+}
+h3{
+ color: #171645;
+font-family: Merriweather; 
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+}
+.log-but{
+    background-color:  #171645;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 87%;
+    color: #FFFFFF;
+}
+input{background-color: #E5E5E5;
+    width: 80%;
+}
+input,button{
+    display: block;
+    padding: 10px;
+    margin:10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    
+    border-radius: 3px;
+    border: none;
+}
+.form-cont{
+    text-align: center;
+    font-size: 10px;
+    margin: 10px;
+    max-width: 100vw;
+    margin-top: -3px;
+}
+.mid-text{
+    font-size: 15px;
+    color: #171645;
+    font-family: Merriweather;  
+}
+.alt-login > button  {
+    width: 87%;
+}
+.alt-login > button >img{
+    width: 10%;
+    height: 10%;
+}
+.foot{
+    font-size: 20px;
+    color: #171645;
+    font-family: poppins;
+}
+
+@media screen and (min-width: 800px) {
+    .main-container {
+        position: relative;
+        width: 350px;
+        top: 20px;
+        left: 400px;
+        height: 500px;
+        background-color: #FFFFFF;
+        max-width: 100vw;
+        
+    }
+    .form-cont{
+        margin-top: -40px;
+        padding-top: -30px;
+    }
+  }
